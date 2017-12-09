@@ -27,8 +27,8 @@ install:
   # recipy setup.py fails to install flask for as-yet-unknown reason,
   # and fails if it is not present, so install it explicitly.
   - conda install keras
-  # Install recipy.
-  - python setup.py install
+  # # Install recipy.
+  # - python setup.py install
   # Install behave for unit tests
   - pip install -e . behave
   # Install py.test explicitly else Travis CI will use the one in its
