@@ -30,7 +30,7 @@ install:
   # # Install recipy.
   # - python setup.py install
   # Install behave for unit tests
-  - pip install -e . behave
+  # - pip install -e . behave
   # Install py.test explicitly else Travis CI will use the one in its
   # virtualenv which can't use the Miniconda environment.
   - conda install pytest
