@@ -56,7 +56,8 @@ install:
   - py.test --version
   - pip freeze
 
-# script:
+script:
+  - pytest
 #   - cd test/ && behave
 #   - cd ..
 #   # Run py.test with 'v' (verbose) to show test function names and  
