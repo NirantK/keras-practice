@@ -51,6 +51,7 @@ install:
   # - cp integration_test/packages/matplotlibrc .
   # Print the environment.
   - which python
+  - python --version
   - which pip
   - which py.test
   - py.test --version
